@@ -1,0 +1,4 @@
+#app_today_date:
+  #  path: /today/date
+    #controller: App\Controller\TodayDateController::date
+    
