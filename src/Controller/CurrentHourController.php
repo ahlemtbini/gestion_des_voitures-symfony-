@@ -17,7 +17,8 @@ class CurrentHourController extends AbstractController
      */
     public function index(string $nom): Response
     {
-        return $this->render('current_hour/index.html.twig', [
+        return $this
+        ->render('current_hour/index.html.twig', [
             'controller_name' => $nom,
         ]);
     }
